@@ -1,0 +1,47 @@
+/*
+     github.com/mmdvanazanin
+     
+     date: 18.04.2023 -- 00:40
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(18, 18, 49);
+    position: relative;
+}
+.navbar{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(41, 39, 39);
+    border-radius: 25px;
+    box-shadow: 1px 2px 3px 2px aqua;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 40px;
+}
+/*
+     github.com/mmdvanazanin
+     
+     date: 18.04.2023 -- 00:40
+*/
+.navbar ul li{
+    list-style-type: none;
+    font-size: 25px;
+    display: inline;
+    color: white;
+    cursor: pointer;
+}
+.navbar ul li:hover{
+    color: aqua;
+    transition: 1s;
+}
